@@ -1,0 +1,8 @@
+micronaut:
+    application:
+        name: cachetest
+    server:
+        port: 8080
+    caches:
+        my-cache:
+            maximumSize: 20
